@@ -17,7 +17,7 @@ url = "http://<URL HERE>/?list-type=2&continuation-token="
 contToken = urllib.parse.quote("")
 
 # Put the name of the key you are looking for here
-contReg = re.compile("company_logos/int.sc.mufg.jp")
+contReg = re.compile("")
 
 # Dont change this. This finds the next continuation token
 contKey = re.compile("(?:<NextContinuationToken>)(.+)(?:<\/NextContinuationToken>)")
